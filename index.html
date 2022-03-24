@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="iamge">
+            <img src="img/background 5.jpg" alt="">
+        </div>
+
+        <div class="forms">
+            
+            <form action="">
+                <div class="form-header">
+                    <h1>Cadastre-se</h1>
+                    <button type="submit">Entrar</button>
+                </div>
+
+                <div class="nome-sobren">
+                    <label for="nome">Primeiro Nome
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu primeito nome">
+                    </label>
+                     <label for="sobrenome">Sobrenome
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu Sobrenome">
+                    </label>
+                </div>
+
+                <div class="email-cell">
+                    <label for="email">
+                        <input type="email" name="email" id="email" placeholder="Digite seu Email">
+                    </label>
+                    <label for="cell">
+                        <input type="number" name="cell" id="cell" placeholder="(xx) xxxx xxxx">
+                    </label>
+                </div>
+
+                <div class="pass-confirm">
+                    <label for="passw">
+                        <input type="password" name="password" id="passw" placeholder="Digite sua senha">
+                    </label>
+                    <label for="confirm">
+                        <input type="password" name="confirmpass" id="confirm">
+                    </label>
+                </div>
+
+                <div class="input-radio">
+                    <label for="genero">Gênero</label>
+                    <div class="radio">
+                        <input type="radio" name="Fem" id="feminino"><label for="feminino">Feminino</label>
+                        <input type="radio" name="Mas" id="masculino"><label for="masculino">Masculino</label>
+                        <input type="radio" name="Outros" id="outros"><label for="Outros">Outros</label>
+                        <input type="radio" name="dontTell" id="dontTell"><label for="dontTell">Prefiro não dizer</label>
+                    </div>
+                </div>
+
+                <button type="submit">Continuar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
